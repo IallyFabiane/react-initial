@@ -7,7 +7,7 @@ export const Posts = ({posts}) => {
           key={post.id}
           title={post.title} 
           body={post.body}
-          id={post.id}
+          //id={post.id}
           cover={post.cover}
           />
         ))}
